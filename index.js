@@ -1,4 +1,4 @@
-const commandReader = require("linebyline");
+const commandReader = require("readline");
 const ParkingLot = require("./parkinglot");
 const route = require("./route");
 
@@ -14,7 +14,7 @@ const main = async () => {
     cmd.on("line", async (input) => {
       const inputList = input.split(" ");
       const value = inputList.splice(1, inputList.length);
-      const command = router[inputList[0]];
+      const command = route[inputList[0]];
       if (!command) {
         console.log(
           `Command not found! Please type "help" to list all of commands`

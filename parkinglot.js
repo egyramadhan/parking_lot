@@ -89,7 +89,7 @@ class ParkingLot {
       }
     
       async help() {
-        return `Hi, welcome to Parking Lot Application. Here are commands that you can use to manage your parking lot.\n\t1. "create_parking_lot <number>" To create your parking lot capacity\n\t2. "add <Registration Number> <Color>" To add car in parking lot\n\t3. "leave <Registration Number> <Parking Time>" to release slot and get bills\n\t4. "status" View  all car in parking lot`;
+        return `Hi, welcome to Parking Lot Application. Here are commands that you can use to manage your parking lot.\n\t1. "create_parking_lot <number>" To create your parking lot capacity\n\t2. "park <Registration Number> <Color>" To add car in parking lot\n\t3. "leave <Registration Number> <Parking Time>" to release slot and get bills\n\t4. "status" View  all car in parking lot`;
       }
 }
 
