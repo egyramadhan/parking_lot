@@ -1,6 +1,6 @@
 # Parking Lot App
 
-This application is used for parking lot management
+This application is used for parking lot
 
 ## How to install
 
